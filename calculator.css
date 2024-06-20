@@ -1,0 +1,50 @@
+#calculator {
+  width: 250px;
+  height: 550px;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #e4e3e3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#calculator td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid black;
+  border-radius:12px;
+  cursor: pointer;
+}
+
+#result {
+  width: 95%;
+  height: 50px;
+  font-size: 1.5rem;
+  text-align: right;
+  color: black;
+}
+
+#calculator input[type="button"] {
+  width:100px;
+  height:50px;
+  font-size: 22px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/014/378/559/non_2x/dark-black-and-gray-blurred-gradient-background-has-a-little-abstract-light-soft-background-for-wallpaper-design-graphic-and-presentation-backdrop-wall-free-photo.jpg');
+  border: black;
+}
+
+h1{
+  color: white;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+u {
+  text-decoration: underline;
+}
